@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('https://cdn.pixabay.com/photo/2013/06/10/09/15/morocco-123976_640.jpg') ;
+background-position: center;
+background-size: cover;
+padding-left: 8%;
+padding-right: 8%;
+box-sizing: border-box;
+
+}
+
+.navbar{
+height: 12%;
+display: flex;
+align-items: center;
+}
+
+.logo{
+width: 50px;
+cursor: pointer;
+}
+
+.icon{
+    font-size: 2.5vh;
+width: 30px;
+cursor: pointer;
+margin-left: 10rem;
+color: white;
+}
+
+nav{
+flex: 1;
+text-align: right;
+
+}
+
+nav ul li {
+list-style: none;
+display: inline-block;
+margin-left: 60px;
+
+}
+
+nav ul li a{
+text-decoration: none;
+font-size: 2.5vh;
+color: white;
+}
+
+.row{
+display: flex;
+height: 88%;
+align-items: center;
+}
+
+.col{
+flex-basis: 50%;
+}
+h1{
+color: white;
+font-size: 25vh;
+
+
+}
+
+p{
+color: white;
+font-size: 2vh;
+line-height: 15px;
+}
+
+button{
+width: 180px;
+color: #000;
+font-size: 2.5vh;
+padding: 12px 0;
+background-color: #fff;
+border: 0;
+border-radius: 20px;
+outline: none;
+margin-top: 30px;
+}
+
+.card{
+    font-family: mv boli;
+width: 200px;
+height: 230px;
+display: inline-block;
+border-radius: 18px;
+padding: 12px;
+box-sizing: border-box;
+cursor: pointer;
+margin: 10px 15px;
+background-position: center;
+background-size: cover;
+transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(https://cdn.pixabay.com/photo/2021/10/24/21/11/desert-6739306_640.jpg);
+
+}
+
+.card2{
+    background-image: url(https://cdn.pixabay.com/photo/2015/08/13/20/06/flower-887443_640.jpg );
+
+}
+.card3{
+    background-image: url(https://cdn.pixabay.com/photo/2014/07/27/22/16/utah-403231_640.jpg);
+
+}
+.card4{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/18/17/11/bloom-1835884_640.jpg);
+
+}
+
+.card:hover{
+transform: translateY(-10px);
+
+}
+
+h5{
+color: #fff;
+text-shadow: 0 0 5px #000;
+}
+
+.card p{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 15px #ffffff;
+font-size: 11px;
+}
+
